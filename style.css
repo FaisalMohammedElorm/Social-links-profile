@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+body {
+  background: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+}
+.container {
+  padding: 20px;
+}
+#name {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+}
+#location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 500;
+  margin-top: -30px;
+}
+#title {
+  color: #fff;
+  font-weight: 700;
+  margin-top: -10px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.social-media-container {
+  background-color: hsl(0, 0%, 20%);
+  height: 600px;
+  width: 400px;
+  margin-left: 435px;
+  border-radius: 10px;
+}
+.social-media a {
+  color: #fff;
+  text-decoration: none;
+  margin-top: -5px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  border-radius: 5px; 
+  background-color: hsl(0, 0%, 30%); 
+  width: 300px; 
+  height: 40px;
+}
+.social-media a:hover {
+  color: black;
+  background-color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+.attribution {
+  text-align: center;
+}
+ 
